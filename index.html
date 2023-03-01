@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - JavaScript Calculator</title>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=VT323'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="calcBody">
+
+  <div id="display">0</div>
+  <br>
+  <a href="#" onclick="clearAllButton()">
+    <div id="ACbutton" class="button">AC</div>
+  </a>
+  <a href="#" onclick="clearEntryButton()">
+    <div id="CEbutton" class="button">CE</div>
+  </a>
+  <br>
+  <a href="#" onclick="sevenButton()">
+    <div id="7button" class="button">7</div>
+  </a>
+  <a href="#" onclick="eightButton()">
+    <div id="8button" class="button">8</div>
+  </a>
+  <a href="#" onclick="nineButton()">
+    <div id="9button" class="button">9</div>
+  </a>
+  <a href="#" onclick="divideButton()">
+    <div id="dividebutton" class="op-button">÷</div>
+  </a>
+  <br>
+  <a href="#" onclick="fourButton()">
+    <div id="4button" class="button">4</div>
+  </a>
+  <a href="#" onclick="fiveButton()">
+    <div id="5button" class="button">5</div>
+  </a>
+  <a href="#" onclick="sixButton()">
+    <div id="6button" class="button">6</div>
+  </a>
+  <a href="#" onclick="timesButton()">
+    <div id="timesbutton" class="op-button">×</div>
+  </a>
+  <br>
+  <a href="#" onclick="oneButton()">
+    <div id="1button" class="button">1</div>
+  </a>
+  <a href="#" onclick="twoButton()">
+    <div id="2button" class="button">2</div>
+  </a>
+  <a href="#" onclick="threeButton()">
+    <div id="3button" class="button">3</div>
+  </a>
+  <a href="#" onclick="minusButton()">
+    <div id="minusbutton" class="op-button">−</div>
+  </a>
+  <br>
+  <a href="#" onclick="zeroButton()">
+    <div id="0button" class="button">0</div>
+  </a>
+  <a href="#" onclick="dotButton()">
+    <div id="dotbutton" class="button">.</div>
+  </a>
+  <a href="#" onclick="equalsButton()">
+    <div id="equalsbutton" class="button">=</div>
+  </a>
+  <a href="#" onclick="plusButton()">
+    <div id="plusbutton" class="op-button">+</div>
+  </a>
+
+</div>
+<footer>
+  <p>Designed & coded by <a href="https://codepen.io/brispone/" target="_blank">Brad Rispone</a></p>
+</footer>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>

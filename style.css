@@ -1,0 +1,97 @@
+body {
+  background-color: #f7d98e;
+  margin-top: 100px;
+}
+
+#calcBody {
+  background-color: #69858f;
+  width: 500px;
+  height: 480px;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 50px;
+  border: 2px grey solid;
+  margin: auto;
+  box-shadow: inset 2px 2px 5px white, 5px 5px 30px #49463E;
+}
+
+.op-button {
+  width: 100px;
+  height: 50px;
+  background-color: grey;
+  border-radius: 10px;
+  border-bottom: 3px #2F4F4F solid;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+  color: white;
+  font-size: 30px;
+  display: inline-block;
+  margin: 5px;
+  font-family: monospace;
+  box-shadow: inset 2px 2px 5px white, 3px 3px 5px #49463E;
+}
+
+.button {
+  width: 100px;
+  height: 50px;
+  background-color: #a8a8a8;
+  border-radius: 10px;
+  border-bottom: 3px #2F4F4F solid;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+  color: white;
+  font-size: 30px;
+  display: inline-block;
+  margin: 5px;
+  font-family: monospace;
+  box-shadow: inset 2px 2px 5px white, 3px 3px 5px #49463E;
+}
+
+.op-button:active,
+.button:active {
+  border-bottom: 1px #2F4F4F solid;
+  position: relative;
+  top: 2px;
+}
+
+#equalsbutton {
+  background-color: #008080;
+}
+
+#ACbutton,
+#CEbutton {
+  background-color: #ad3831;
+  position: relative;
+  left: 114px;
+}
+
+a {
+  text-decoration: none;
+  color: gray;
+}
+
+#display {
+  width: 400px;
+  height: 60px;
+  background-color: #b6c293;
+  border-radius: 10px;
+  text-align: right;
+  vertical-align: middle;
+  line-height: 60px;
+  font-size: 70px;
+  display: inline-block;
+  margin: 5px;
+  font-family: "VT323", monospace;
+  border: 2px solid #757c63;
+  padding: 20px;
+  color: #2F3C1D;
+}
+
+footer {
+  text-align: center;
+  font-family: monospace;
+  color: white;
+  font-size: 15px;
+}
